@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -17,7 +17,7 @@
             <!-- profile page -->
             <div class="book-page page-left">
                 <div class="profile-page">
-                    <img src="./img/Layer 5 null.png" alt="photo">
+                    <img class="profile-img" src="./img/Layer 5 null.png" alt="photo" />
                     <h1>Seyfemichael Teklemariam</h1>
                     <h3>Software Developer</h3>
 
@@ -35,9 +35,47 @@
                     </div>
                 </div>
             </div>
+            <!-- page 1 & 2 -->
+             <div class="book-page page-right turn" id="turn-1">
+                <!-- page 1 Work Experiance -->
+                 <div class="page-front">
+                    <h1 class="title">Work Experience</h1>
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class="bx bxs-calendar"></i> 2020-2021</span>
+                            <h3>Cybersecurity - INSA</h3>
+                            <p>Lorem voluptate dolorum eaque autem excepturi, quos iste accusamus at quia? Dicta iste cum quis accusamus harum dolore quo non reprehenderit, quae, soluta corrupti deserunt sapiente delectus sint quod dolorem beatae laudantium perspiciatis.</p>
+                        </div>
+                    </div>
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class="bx bxs-calendar"></i> 2022-2023</span>
+                            <h3>Web developer - Qemer Software Technology PLC</h3>
+                            <p>Lorem voluptate dolorum eaque autem excepturi, quos iste accusamus at quia? Dicta iste cum quis accusamus harum dolore quo non reprehenderit, quae, soluta corrupti deserunt sapiente delectus sint quod dolorem beatae laudantium perspiciatis.</p>
+                        </div>
+                    </div>
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class="bx bxs-calendar"></i> 2023-2025</span>
+                            <h3>Software Developer - Tsehay Bank</h3>
+                            <p>Lorem voluptate dolorum eaque autem excepturi, quos iste accusamus at quia? Dicta iste cum quis accusamus harum dolore quo non reprehenderit, quae, soluta corrupti deserunt sapiente delectus sint quod dolorem beatae laudantium perspiciatis.</p>
+                        </div>
+                    </div>
+                    <span class="number-page">Page 1</span>
+                    <!-- next page button -->
+                     <span class="nextprev-btn" data-page="turn-1"><i class='bx bx-chevron-right' ></i></span>
+                 </div>
+                <!-- page 2 Education -->
+                 <div class="page-back">
+                    <h1 class="title">Education</h1>
+                    <span class="number-page">Page 2</span>
+                    <!-- next page button -->
+                     <span class="nextprev-btn back" data-page="turn-1"><i class='bx bx-chevron-left' ></i></span>
+                 
+                 </div>
+             </div>
         </div>
     </div>
-
     <script src="./js/script.js"></script>
 </body>
 </html>
