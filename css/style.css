@@ -277,6 +277,7 @@ padding: 1rem;
     padding: .8rem .5rem 1.1rem;
     text-align: center;
     transition: .3s ease;
+    cursor: pointer;
 }
 .services-box .services-content:hover{
     box-shadow: var(--box-shadow);
@@ -294,4 +295,39 @@ padding: 1rem;
 .services-content .btn{
     width: 8rem;
     height: 2.5rem;
+}
+
+.skills-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.skills-box .skills-content{
+    flex: 1 1 20rem;
+}
+.skills-content .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+}
+.skills-content .content span{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 4rem;
+    border:var(--border);
+    border-radius: .3rem;
+    font-weight: 600;
+    transition: .3s ease;
+    cursor: pointer;
+}
+.skills-content .content span i{
+    font-size: 1.6rem;
+    color: var(--main-color);
+}
+.skills-content .content span:hover{
+    box-shadow: var(--box-shadow);
 }
